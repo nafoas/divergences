@@ -118,6 +118,10 @@ je_ploumanao_raiding = {
 					days = normal_modifier_time
 				}
 			}
+                         if = {
+                           limit = {
+                            exists = scope:raid_target
+                        }
 			scope:raid_target = {
 				if = {
 					limit = {
