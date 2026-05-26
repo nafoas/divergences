@@ -1565,7 +1565,7 @@
 		#}
 	}
 	
-	 c:JNR = { #Janissary Revolt
+	c:JNR = { #Janissary Revolt
 		effect_starting_technology_tier_3_tech = yes
 
 		
@@ -1817,16 +1817,16 @@
 		}
 	}
 
-	c:BLO = { #Vologda
-		effect_starting_technology_tier_3_tech = yes
+	# c:BLO = { #Vologda
+	# 	effect_starting_technology_tier_3_tech = yes
 		
-		effect_starting_politics_traditional = yes
+	# 	effect_starting_politics_traditional = yes
 
-		set_ruling_interest_groups = {
-			ig_landowners
-			ig_devout
-		}
-	}
+	# 	set_ruling_interest_groups = {
+	# 		ig_landowners
+	# 		ig_devout
+	# 	}
+	# }
 
 	c:UGG = { #Kostroma
 		effect_starting_technology_tier_3_tech = yes
@@ -1987,7 +1987,6 @@
 		trigger_event = {
 			id = dvg_central_rus.1
 		}
-
 		add_taxed_goods = g:liquor
 	}
 
@@ -2175,6 +2174,8 @@
 		}
 	}
 
+	
+
 	c:VOR = {
 		effect_starting_technology_tier_3_tech = yes
 		
@@ -2310,9 +2311,20 @@
 		}
 	}
 
-
-
-	
-
-
+	c:MRD = { 
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_reactionary = yes
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_guild_system
+		
+		set_ruling_interest_groups = {
+			ig_landowners
+		}
+		ig:ig_devout = {
+			set_interest_group_name = ig_orthodox_church
+		}
+	}
 }

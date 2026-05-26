@@ -22,12 +22,6 @@ assign_state_hub_dynamic_names = {
         }
         assign_state_name_region_dnieper = yes
     }
-	if = { # England Region
-        limit = {
-        	region = sr:region_england
-        }
-        assign_state_name_region_england = yes
-    }
 	if = { # Poland Region
         limit = {
         	region = sr:region_poland
@@ -100,12 +94,6 @@ assign_state_hub_dynamic_names = {
     	}
     	assign_state_name_region_baltic = yes
     }
-	if = { # Danubia region
-    	limit = {
-    		region = sr:region_danubia
-    	}
-    	assign_state_name_region_danubia = yes
-    }
 
     ### Americas
 
@@ -174,7 +162,7 @@ assign_state_hub_dynamic_names = {
     }
     if = { # Manchuria Region
         limit = {
-        	region = sr:region_manchuria
+        	is_in_geographic_region = geographic_region_manchuria_old
         }
     	assign_state_name_region_manchuria = yes
     }

@@ -3611,7 +3611,7 @@
 			}
 		}
 	}
-	s:STATE_CHUBU={
+	s:STATE_TOKAI={
 		region_state:JAP={
 			create_building={
 				building="building_government_administration"
@@ -3642,7 +3642,7 @@
 						type="building_paper_mill"
 						country="c:JAP"
 						levels=2
-						region="STATE_CHUBU"
+						region="STATE_TOKAI"
 					}
 				}
 				reserves=1
@@ -3655,7 +3655,7 @@
 						type="building_furniture_manufactory"
 						country="c:JAP"
 						levels=2
-						region="STATE_CHUBU"
+						region="STATE_TOKAI"
 					}
 				}
 				reserves=1
@@ -3668,7 +3668,7 @@
 						type="building_tooling_workshop"
 						country="c:JAP"
 						levels=1
-						region="STATE_CHUBU"
+						region="STATE_TOKAI"
 					}
 				}
 				reserves=1
@@ -3681,7 +3681,7 @@
 						type="building_logging_camp"
 						country="c:JAP"
 						levels=4
-						region="STATE_CHUBU"
+						region="STATE_TOKAI"
 					}
 				}
 				reserves=1
@@ -3694,7 +3694,7 @@
 						type="building_manor_house"
 						country="c:JAP"
 						levels=2
-						region="STATE_CHUBU"
+						region="STATE_TOKAI"
 					}
 				}
 				reserves=1
@@ -3707,7 +3707,7 @@
 						type="building_manor_house"
 						country="c:JAP"
 						levels=2
-						region="STATE_CHUBU"
+						region="STATE_TOKAI"
 					}
 				}
 				reserves=1
@@ -3720,7 +3720,7 @@
 						type="building_manor_house"
 						country="c:JAP"
 						levels=2
-						region="STATE_CHUBU"
+						region="STATE_TOKAI"
 					}
 				}
 				reserves=1
@@ -3733,7 +3733,7 @@
 						type="building_manor_house"
 						country="c:JAP"
 						levels=4
-						region="STATE_CHUBU"
+						region="STATE_TOKAI"
 					}
 				}
 				reserves=1
@@ -3746,7 +3746,7 @@
 						type="building_manor_house"
 						country="c:JAP"
 						levels=1
-						region="STATE_CHUBU"
+						region="STATE_TOKAI"
 					}
 				}
 				reserves=1
@@ -3754,7 +3754,7 @@
 			}
 		}
 	}
-	s:STATE_KANSAI={
+	s:STATE_KYOTO={
 		region_state:JAP={
 			create_building={
 				building="building_government_administration"
@@ -3796,7 +3796,7 @@
 						type="building_textile_mill"
 						country="c:JAP"
 						levels=3
-						region="STATE_KANSAI"
+						region="STATE_KYOTO"
 					}
 				}
 				reserves=1
@@ -3809,7 +3809,7 @@
 						type="building_paper_mill"
 						country="c:JAP"
 						levels=3
-						region="STATE_KANSAI"
+						region="STATE_KYOTO"
 					}
 				}
 				reserves=1
@@ -3822,7 +3822,7 @@
 						type="building_arms_industry"
 						country="c:JAP"
 						levels=1
-						region="STATE_KANSAI"
+						region="STATE_KYOTO"
 					}
 				}
 				reserves=1
@@ -3835,7 +3835,7 @@
 						type="building_fishing_wharf"
 						country="c:JAP"
 						levels=2
-						region="STATE_KANSAI"
+						region="STATE_KYOTO"
 					}
 				}
 				reserves=1
@@ -3848,7 +3848,7 @@
 						type="building_manor_house"
 						country="c:JAP"
 						levels=2
-						region="STATE_KANSAI"
+						region="STATE_KYOTO"
 					}
 				}
 				reserves=1
@@ -3861,7 +3861,7 @@
 						type="building_manor_house"
 						country="c:JAP"
 						levels=2
-						region="STATE_KANSAI"
+						region="STATE_KYOTO"
 					}
 				}
 				reserves=1
@@ -3874,7 +3874,7 @@
 						type="building_manor_house"
 						country="c:JAP"
 						levels=3
-						region="STATE_KANSAI"
+						region="STATE_KYOTO"
 					}
 				}
 				reserves=1
@@ -3887,7 +3887,7 @@
 						type="building_manor_house"
 						country="c:JAP"
 						levels=2
-						region="STATE_KANSAI"
+						region="STATE_KYOTO"
 					}
 				}
 				reserves=1
@@ -3900,7 +3900,7 @@
 						type="building_manor_house"
 						country="c:JAP"
 						levels=5
-						region="STATE_KANSAI"
+						region="STATE_KYOTO"
 					}
 				}
 				reserves=1
@@ -3914,7 +3914,7 @@
 						type="building_financial_district"
 						country="c:JAP"
 						levels=3
-						region="STATE_KANSAI"
+						region="STATE_KYOTO"
 					}
 				}
 				reserves=1
@@ -5698,7 +5698,7 @@
 			}
 		}
 	}
-	s:STATE_BURMA={
+	s:STATE_MANDALAY={
 		region_state:BUR={
 			create_building={
 				building="building_government_administration"
@@ -5718,7 +5718,7 @@
 						type="building_manor_house"
 						country="c:BUR"
 						levels=1
-						region="STATE_BURMA"
+						region="STATE_MANDALAY"
 					}
 				}
 				reserves=1
@@ -5731,7 +5731,7 @@
 						type="building_manor_house"
 						country="c:BUR"
 						levels=2
-						region="STATE_BURMA"
+						region="STATE_MANDALAY"
 					}
 				}
 				reserves=1
@@ -5744,7 +5744,7 @@
 						type="building_manor_house"
 						country="c:BUR"
 						levels=1
-						region="STATE_BURMA"
+						region="STATE_MANDALAY"
 					}
 				}
 				reserves=1
@@ -5757,7 +5757,7 @@
 						type="building_iron_mine"
 						country="c:BUR"
 						levels=1
-						region="STATE_BURMA"
+						region="STATE_MANDALAY"
 					}
 				}
 				reserves=1
@@ -5770,7 +5770,7 @@
 						type="building_logging_camp"
 						country="c:BUR"
 						levels=1
-						region="STATE_BURMA"
+						region="STATE_MANDALAY"
 					}
 				}
 				reserves=1
@@ -5783,7 +5783,7 @@
 						type="building_arms_industry"
 						country="c:BUR"
 						levels=1
-						region="STATE_BURMA"
+						region="STATE_MANDALAY"
 					}
 				}
 				reserves=1
@@ -5857,6 +5857,8 @@
 				reserves=1
 			}
 		}
+	}
+	s:STATE_ARAKAN = {
 		region_state:SPA={
 			create_building={
 				building="building_fishing_wharf"
@@ -5865,7 +5867,7 @@
 						type="building_fishing_wharf"
 						country="c:SPA"
 						levels=1
-						region="STATE_PEGU"
+						region="STATE_ARAKAN"
 					}
 				}
 				reserves=1
